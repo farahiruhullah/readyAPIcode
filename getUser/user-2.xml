@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="user 2" path="/api/v1/user" id="90a4659b-868a-44f8-8790-7f808269bfff" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="90a4659b-868a-44f8-8790-7f808269bffffileName">user-2</con:setting>
+  </con:settings>
+  <con:parameters/>
+  <con:method name="post method" id="4c17d722-29c4-41df-99ee-c33681dc83b4" method="POST">
+    <con:settings/>
+    <con:parameters/>
+    <con:request name="cerateUser" id="3fba29cc-861e-480a-8c63-cf0e0cf0a12c" mediaType="application/json" postQueryString="false">
+      <con:settings>
+        <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+      </con:settings>
+      <con:endpoint>https://www.test-insurance.com</con:endpoint>
+      <con:request/>
+      <con:credentials>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
+      <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+      <con:parameters/>
+    </con:request>
+  </con:method>
+</con:resource>

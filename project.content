@@ -1,0 +1,9 @@
+getUser\user.xml
+getUser\user-2.xml
+regressionTestSuite\getUser-positiveTeseCase.xml
+regressionTestSuite\createUserTest.xml
+regressionTestSuite\getUserTest.xml
+regressionTestSuite\updateUser.xml
+classPractice\createrUserPractice.xml
+classPractice\getUserPractice.xml
+classPractice\deleteUser.xml
